@@ -2,7 +2,13 @@ site_name: "My Docs Site"
 theme:
   name: "material"
 
+markdown_extensions:
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+      format: svg
+
 nav:
   - Главная: index.md
   - Руководство: guide.md
+  - Пример UML диаграмм: uml.md
   - О проекте: about.md
