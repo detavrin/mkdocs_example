@@ -1,4 +1,8 @@
 site_name: "My Docs Site"
+
+repo_url: https://github.com/detavrin/mkdocs_example
+edit_uri: ""
+
 theme:
   name: "material"
 
